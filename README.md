@@ -1,15 +1,10 @@
-# EX.-4-LOAD-FLOW-ANALYSIS-USING-GAUSS--SEIDAL-METHOD
-# AIM: 
-To carry out the load flow analysis of the given power system by Gauss-Seidal 
-method. 
+**LOAD-FLOW-ANALYSIS-USING-GAUSS--SEIDAL-METHOD**
+# INTRODUCTION
+The Gauss–Seidel method is an iterative numerical technique used to solve the nonlinear load-flow equations. Starting from an initial voltage estimate, the bus voltages are updated successively using the latest available values until the change between iterations satisfies a specified convergence tolerance. In this teaching activity, students explore the method conceptually and use ETAP to construct a network model and perform load-flow studies.
+The activity connects the mathematical procedure—bus classification, specified power, voltage updates, and convergence—with the practical interpretation of ETAP results. The software is used as a simulation and visualization environment; the underlying numerical method is discussed separately so that students understand what the solver is calculating.
 
 # SOFTWARE REQUIRED:
 ETAP Software
- 
-# THEORY: 
-Load flow analysis is the study conducted to determine the steady state 
-condition of the given system. A large number of numerical algorithms have been developed 
-and Gauss Seidal method is one of such algorithms. 
  
 # PROBLEM FORMULATION: 
    
@@ -68,8 +63,21 @@ including all the complex bus voltages and all the bus angles.
 ```
 
 # CIRCUIT DIAGRAM:
+<img width="975" height="578" alt="image" src="https://github.com/user-attachments/assets/5cef0960-0f22-42ee-bc2a-738160808357" />
+
 # OUTPUT: 
-# RESULT:
-Thus the load flow analysis using gauss-seidal method is successfully done using etap software and the 
-output is obtained.
+S.No.	Observation	Voltage (kV) / Current (A)
+1	Bus 1 Voltage	14.03 kV
+2	Bus 2 Voltage	4.16 kV
+3	Bus 3 Voltage	4.16 kV
+4	Bus 4 Voltage	4.16 kV
+5	Bus 5 Voltage	4.16 kV
+6	Source feeder current	137.6 A
+7	Transformer T1 feeder current	760.9 A
+8	Bus 3 feeder current	744.8 A
+9	Bus 5 feeder current	744.8 A
+10	Bus 4 feeder current	473.1 A
+
+# CONCLUSION:
+The ETAP-supported learning activity provides students with an applied understanding of load-flow analysis and the Gauss–Seidel iterative concept. By connecting bus classification and voltage-update theory with a practical single-line network model, students can observe how system data influence bus voltages and power flows. The activity encourages analytical thinking, software familiarity, and interpretation of power-system operating conditions
 
